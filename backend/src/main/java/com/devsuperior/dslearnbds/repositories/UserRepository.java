@@ -8,11 +8,5 @@ import com.devsuperior.dslearnbds.entities.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long>{
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 	User findByEmail(String email);
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 }

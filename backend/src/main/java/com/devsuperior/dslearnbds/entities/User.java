@@ -2,24 +2,12 @@ package com.devsuperior.dslearnbds.entities;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 import java.util.Collection;
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 import java.util.stream.Collectors;
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -32,16 +20,6 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-<<<<<<< HEAD
-@Entity
-@Table(name = "tb_user")
-public class User implements Serializable {
-=======
-<<<<<<< HEAD
-@Entity
-@Table(name = "tb_user")
-public class User implements Serializable {
-=======
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -49,8 +27,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 @Entity
 @Table(name = "tb_user")
 public class User implements UserDetails, Serializable {
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -133,10 +109,6 @@ public class User implements UserDetails, Serializable {
 		User other = (User) obj;
 		return Objects.equals(id, other.id);
 	}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 	
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -167,7 +139,5 @@ public class User implements UserDetails, Serializable {
 	public boolean isEnabled() {
 		return true;
 	}
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 
 }

@@ -15,13 +15,7 @@
 	<description>DsLearn</description>
 	<properties>
 		<java.version>11</java.version>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 	</properties>
 	<dependencies>
 		<dependency>
@@ -43,10 +37,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
@@ -56,8 +46,6 @@
 			<groupId>org.springframework.security.oauth.boot</groupId>
 			<artifactId>spring-security-oauth2-autoconfigure</artifactId>
 		</dependency>
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 	</dependencies>
 
 	<build>
@@ -67,14 +55,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build>
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-
-=======
-	
+	</build>	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -86,6 +67,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
->>>>>>> 8becde7 (Security)
->>>>>>> d6532ed (Security)
 </project>
